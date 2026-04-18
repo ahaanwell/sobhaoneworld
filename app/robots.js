@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://www.sattvasanio.in/sitemap.xml",
+    sitemap: "https://www.sobhaoneworld.gen.in/sitemap.xml",
   };
 }

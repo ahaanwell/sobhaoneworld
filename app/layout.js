@@ -23,15 +23,15 @@ export const metadata = {
 
   title: {
     default:
-      "Sobha One World Hoskote Bangalore | Price, Floor Plans & Project Review",
+      "Sobha One World | Hoskote Project | Pre Launch | Reviews & Updated 2026",
     template: "%s | Sobha One World",
   },
 
   description:
-    "Sobha One World is a large-scale integrated township located at Hoskote in East Bangalore. Spread across expansive land, it offers thoughtfully designed 1, 2, 3 & 4 BHK apartments with modern amenities, strong connectivity, and high investment potential.",
+    "Sobha One World is a new-age luxury township by Sobha Limited in Hoskote, spread across 300 acres with premium apartments, modern amenities, and excellent connectivity to Whitefield.",
 
   keywords: [
-    "Sobha One World Hoskote",
+    "Sobha One World",
     "Sobha One World Bangalore price",
     "Sobha One World apartments",
     "Sobha township Hoskote",
@@ -56,7 +56,7 @@ export const metadata = {
     siteName: "Sobha One World",
     images: [
       {
-        url: "https://www.sobhaoneworld.gen.in/images/banner.webp",
+        url: "https://www.sobhaoneworld.gen.in/images/sobhaoneworld.webp",
         width: 1200,
         height: 630,
         alt: "Sobha One World Township Hoskote",
@@ -73,7 +73,7 @@ export const metadata = {
     description:
       "Explore Sobha One World township in East Bangalore featuring modern homes, lifestyle amenities, and excellent connectivity.",
     images: [
-      "https://www.sobhaoneworld.gen.in/images/banner.webp",
+      "https://www.sobhaoneworld.gen.in/images/sobhaoneworld.webp",
     ],
   },
 
@@ -106,7 +106,7 @@ export const metadata = {
   category: "Real Estate",
 
   verification: {
-    google: "ADD_YOUR_CODE",
+    google: "",
   },
 };
 
@@ -127,7 +127,7 @@ export default function RootLayout({ children }) {
         "Sobha One World is an upcoming residential township in Hoskote, East Bangalore, offering premium apartments with modern architecture, lifestyle amenities, and seamless connectivity to major IT hubs.",
       url: "https://www.sobhaoneworld.gen.in/",
       image:
-        "https://www.sobhaoneworld.gen.in/images/banner.webp",
+        "https://www.sobhaoneworld.gen.in/images/sobhaoneworld.webp",
       address: {
         "@type": "PostalAddress",
         streetAddress:
@@ -201,7 +201,7 @@ const reviewSchema = {
   "itemReviewed": {
     "@type": "ApartmentComplex",
     "name": "Sobha One World",
-    "image": "https://www.sobhaoneworld.gen.in/images/banner.webp",
+    "image": "https://www.sobhaoneworld.gen.in/images/sobhaoneworld.webp",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Hoskote",
