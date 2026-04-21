@@ -59,14 +59,14 @@ function LeadForm(){
                   onChange={handleChange}
                   required
                   placeholder="Name"
-                className="w-full border border-gray-300 rounded-xl px-4 py-3 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#ce3125] text-sm"
+                className="w-full border border-gray-300 rounded-xl px-4 py-3 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#ca9c20] text-sm"
               />
               <div className="flex gap-2">
                 <select
                   name="countryCode"
                   value={leadData.countryCode}
                   onChange={handleChange}
-                  className="border border-gray-300 rounded-xl px-3 py-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-[#ce3125] text-sm bg-white"
+                  className="border border-gray-300 rounded-xl px-3 py-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-[#ca9c20] text-sm bg-white"
                 >
                   <option value="+91">+91</option>
                   <option value="+1">+1</option>
@@ -80,7 +80,7 @@ function LeadForm(){
                   value={leadData.number}
                   onChange={handleChange}
                   required
-                  className="flex-1 border border-gray-300 rounded-xl px-4 py-3 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#ce3125] text-sm"
+                  className="flex-1 border border-gray-300 rounded-xl px-4 py-3 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#ca9c20] text-sm"
                 />
               </div>
               <input
@@ -90,7 +90,7 @@ function LeadForm(){
                 value={leadData.email}
                   onChange={handleChange}
                   required
-                className="w-full border border-gray-300 rounded-xl px-4 py-3 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#ce3125] text-sm"
+                className="w-full border border-gray-300 rounded-xl px-4 py-3 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#ca9c20] text-sm"
               />
               <button
                 type="submit"
@@ -103,7 +103,7 @@ function LeadForm(){
                 <input
                   type="checkbox"
                   
-                  className="mt-0.5 w-4 h-4 border-gray-300 rounded accent-[#ce3125] flex-shrink-0"
+                  className="mt-0.5 w-4 h-4 border-gray-300 rounded accent-[#ca9c20] flex-shrink-0"
                 />
                 <span className="text-xs text-gray-500 leading-relaxed">
                   I give my consent for the privacy policy to apply to the processing of the provided data.

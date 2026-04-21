@@ -120,7 +120,7 @@ and yearly interest rate.
                     value={loanAmount}
                     onChange={(e) => setLoanAmount(e.target.value)}
                     placeholder="e.g. 5000000"
-                    className={`w-full pl-10 pr-4 py-3.5 rounded-xl border-2 border-gray-600 bg-white text-[#1a1a1a] font-sans text-base outline-none transition-all placeholder:text-[#c4b49e] focus:border-[#ce3125] focus:bg-white ${
+                    className={`w-full pl-10 pr-4 py-3.5 rounded-xl border-2 border-gray-600 bg-white text-[#1a1a1a] font-sans text-base outline-none transition-all placeholder:text-[#c4b49e] focus:border-[#ca9c20] focus:bg-white ${
                       errors.loanAmount ? "border-[#ca9c20]" : "border-[#e8ddd0]"
                     }`}
                   />
@@ -146,7 +146,7 @@ and yearly interest rate.
                     onChange={(e) => setInterestRate(e.target.value)}
                     placeholder="e.g. 8.5"
                     step="0.1"
-                    className={`w-full pl-4 pr-10 py-3.5 rounded-xl border-2 border-gray-600 bg-white text-[#1a1a1a] font-sans text-base outline-none transition-all placeholder:text-[#c4b49e] focus:border-[#ce3125] focus:bg-white ${
+                    className={`w-full pl-4 pr-10 py-3.5 rounded-xl border-2 border-gray-600 bg-white text-[#1a1a1a] font-sans text-base outline-none transition-all placeholder:text-[#c4b49e] focus:border-[#ca9c20] focus:bg-white ${
                       errors.interestRate ? "border-[#ca9c20]" : "border-[#e8ddd0]"
                     }`}
                   />
@@ -167,7 +167,7 @@ and yearly interest rate.
                     value={tenure}
                     onChange={(e) => setTenure(e.target.value)}
                     placeholder="e.g. 20"
-                    className={`w-full pl-4 pr-16 py-3.5 rounded-xl border-2 border-gray-600 bg-white text-[#1a1a1a] font-sans text-base outline-none transition-all placeholder:text-[#c4b49e] focus:border-[#ce3125] focus:bg-white ${
+                    className={`w-full pl-4 pr-16 py-3.5 rounded-xl border-2 border-gray-600 bg-white text-[#1a1a1a] font-sans text-base outline-none transition-all placeholder:text-[#c4b49e] focus:border-[#ca9c20] focus:bg-white ${
                       errors.tenure ? "border-[#ca9c20]" : "border-[#e8ddd0]"
                     }`}
                   />
