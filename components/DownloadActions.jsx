@@ -17,7 +17,7 @@ export default function DownloadActions() {
             setModelHeading("Download Brochure");
             setIsModalOpen(true);
           }}
-          className="border border-[#ca9c20] cursor-pointer px-5 py-2 rounded flex items-center gap-2"
+          className="border border-[#ca9c20] cursor-pointer text-gray-800 px-5 py-2 rounded flex items-center gap-2"
         >
           <FaDownload /> Brochure
         </button>
@@ -27,7 +27,7 @@ export default function DownloadActions() {
             setModelHeading("Download Cost Sheet");
             setIsModalOpen(true);
           }}
-          className="border border-[#ca9c20] px-5 py-2 cursor-pointer rounded flex items-center gap-2"
+          className="border border-[#ca9c20] px-5 py-2 cursor-pointer text-gray-800 rounded flex items-center gap-2"
         >
           <IoPricetagsOutline /> Cost Sheet
         </button>

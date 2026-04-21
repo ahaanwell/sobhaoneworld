@@ -120,7 +120,7 @@ export default function ProjectHighlights() {
           </h2>
 
           <p className="mb-4">
-            <b>Sobha Limited</b> built the premium private estate project{" "}
+            <a href="https://www.sobha.com/" rel="nofollow" target="_blank"><b>Sobha Limited</b></a> built the premium private estate project{" "}
             <a href="https://www.sobhaoneworld.gen.in/">
               <b>Sobha One World</b>
             </a>{" "}
@@ -146,7 +146,8 @@ export default function ProjectHighlights() {
             >
               <b>East Bangalore</b>
             </a>
-            . <b>Kempegowda International Airport (KIAL)</b> is only a few
+            . <a href="https://en.wikipedia.org/wiki/Kempegowda_International_Airport" rel="nofollow"
+              target="_blank"><b>Kempegowda International Airport (KIAL)</b></a> is only a few
             minutes away from this spot via SH- 104.
           </p>
 
@@ -486,8 +487,7 @@ export default function ProjectHighlights() {
               target="_blank"
             >
               <b>Real Estate Regulatory Authority</b>
-            </a>
-            . Soon, you'll be able to get a<b>Sobha One World RERA number</b>.
+            </a> . Soon, you'll be able to get a <b>Sobha One World RERA number</b>.
             The Karnataka RERA Authority will give you the legal registration
             number once it has been accepted. The Real Estate Regulatory
             Authority of Karnataka needs to do the following:

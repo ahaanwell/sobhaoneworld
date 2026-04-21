@@ -19,7 +19,7 @@ export default function PriceListSection() {
       aria-labelledby="price-list-heading"
       className="w-full bg-white pt-14"
     >
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-5xl mx-auto px-4 md:px-0">
 
         <h2
           id="price-list-heading"

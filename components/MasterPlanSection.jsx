@@ -26,7 +26,7 @@ export default function MasterPlanSection() {
         <div className="w-full h-px bg-gray-200 mb-5" />
         <div className="text-gray-700 mb-5 space-y-6 leading-relaxed">
             <p>
-              The huge <b>300-acre</b> <b>Sobha One World</b> master plan is spread out all over the land. It will be the largest city in East
+              The huge <b>300-acre</b> <a href="https://www.sobhaoneworld.gen.in/master-plan"><b>Sobha One Worldmaster plan</b> </a> is spread out all over the land. It will be the largest city in East
 Bangalore with its <b>18 beautiful high-rise buildings</b>. It has more than <b>5,400 high-end units</b> that are designed to be
 private and have views of the city from 270 degrees. In the middle, there is a building that serves as a playground for
 the locals. About 70% of this Sobha township's land is set aside for open green spaces.
