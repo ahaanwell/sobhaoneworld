@@ -1,24 +1,42 @@
-"use client";
-
-import { useState } from "react";
-import { FaChevronDown } from "react-icons/fa";
+import FaqClient from "./FaqClient";
 
 const faqs = [
   {
     question: "1. Where is Sobha One World located?",
     answer:
-      "Sobha One World is located in Hoskote along Old Madras Road in East Bangalore, offering good connectivity to Whitefield and major IT corridors.",
+      "Sobha One World is located in Hoskuru, Hoskote, East Bangalore, with convenient access to Whitefield, KR Puram, and Old Madras Road.",
   },
-  
+  {
+    question: "When will this project be launched?",
+    answer: "The launch date is May 20, 2026.",
+  },
+  {
+    question: "What number of units and sizes are available?",
+    answer:
+      "There are 5,406 apartments in sizes ranging from 740 to 2500 square feet.",
+  },
+  {
+    question: "How many buildings and flats are planned for Sobha One World?",
+    answer:
+      "The township will include 18 high rise buildings, each with 54 storeys, totalling around 5,400 units. Every property is created with exquisite architecture and high quality construction.",
+  },
+  {
+    question: "5.What is the project's beginning price?",
+    answer: "The project's pricing begins at Rs 1.09 crore.",
+  },
+  {
+    question: "6.Has Sobha One World obtained RERA approval?",
+    answer:
+      "RERA registration has been requested for and is pending clearance from Karnataka RERA. Once the approval process is complete, the official RERA number will be supplied.",
+  },
+  {
+    question: "7. What payment arrangements are provided for this project?",
+    answer:
+      "Payment schemes are milestone based. Bookings include final payment plans.",
+  },
 ];
 
 export default function FaqSection() {
-  const [openIndex, setOpenIndex] = useState(0);
-
-  const toggle = (index) => {
-    setOpenIndex(openIndex === index ? null : index);
-  };
-
   return (
     <section
       id="faq"
@@ -28,54 +46,17 @@ export default function FaqSection() {
       <div className="max-w-4xl mx-auto">
         <h2
           id="faq-heading"
-          className="text-3xl md:text-4xl font-extrabold text-gray-900 text-center mb-3"
+          className="text-2xl font-bold text-gray-700 text-center mb-3"
         >
           Frequently Asked Questions
         </h2>
-        <p className="text-center text-gray-500 text-sm md:text-base mb-10">
+
+        <p className="text-center text-gray-700 text-sm md:text-base mb-10">
           Everything you need to know about Sobha One World, Hoskote, Bangalore.
         </p>
 
-        <div className="space-y-3" role="list">
-          {faqs.map((faq, index) => {
-            const isOpen = openIndex === index;
-            return (
-              <div
-                key={index}
-                role="listitem"
-                className={`bg-white rounded-xl border transition-all duration-200 overflow-hidden ${
-                  isOpen ? "border-blue-300 shadow-sm" : "border-gray-200"
-                }`}
-              >
-                <button
-                  onClick={() => toggle(index)}
-                  aria-expanded={isOpen}
-                  className="w-full flex items-center cursor-pointer justify-between gap-4 px-5 py-4 text-left"
-                >
-                  <span className={`text-sm md:text-base font-semibold leading-snug ${isOpen ? "text-primary" : "text-gray-800"}`}>
-                    {faq.question}
-                  </span>
-                  <FaChevronDown
-                    className={`text-primary flex-shrink-0 text-sm transition-transform duration-300 ${
-                      isOpen ? "rotate-180" : "rotate-0"
-                    }`}
-                  />
-                </button>
-
-                <div
-                  className={`transition-all duration-300 ease-in-out ${
-                    isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-                  } overflow-hidden`}
-                >
-                  <p className="px-5 pb-5 text-sm md:text-base text-gray-600 leading-relaxed">
-                    {faq.answer}
-                  </p>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-
+        {/* Client component handles toggle */}
+        <FaqClient faqs={faqs} />
       </div>
     </section>
   );

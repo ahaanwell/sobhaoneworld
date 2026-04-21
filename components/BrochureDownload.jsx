@@ -131,7 +131,7 @@ export default function BrochureDownload({
             <button
               type="submit"
               disabled={loading}
-              className="w-full bg-white hover:bg-gray-100 text-primary font-bold py-1.5 rounded-lg transition duration-200 text-sm disabled:opacity-70 cursor-pointer"
+              className="w-full bg-white hover:bg-gray-100 text-[#ca9c20] font-bold py-1.5 rounded-lg transition duration-200 text-sm disabled:opacity-70 cursor-pointer"
             >
               {loading ? "Downloading..." : "Download"}
             </button>
@@ -152,9 +152,9 @@ export default function BrochureDownload({
           </span>
 
           {isOpen ? (
-            <FaArrowLeft className="bg-white p-1 rounded-full text-md font-semibold text-primary" />
+            <FaArrowLeft className="bg-white p-1 rounded-full text-md font-semibold text-[#ca9c20]" />
           ) : (
-            <FaArrowRight className="bg-white p-1 rounded-full text-md font-semibold text-primary" />
+            <FaArrowRight className="bg-white p-1 rounded-full text-md font-semibold text-[#ca9c20]" />
           )}
         </button>
       </div>

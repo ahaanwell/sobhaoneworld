@@ -11,7 +11,7 @@ const galleryImages = [
   { id: 5,  src: "./images/gallery-1.webp",  alt: "Sobha One World Gallery Image 5" },
   { id: 6,  src: "./images/about-sobhaoneworld.webp",  alt: "Sobha One World Gallery Image 6" },
   { id: 7,  src: "./images/gallery-2.webp",  alt: "Sobha One World Gallery Image 7" },
-  { id: 8,  src: "./images/gallery-3.webp",  alt: "Sobha One World Gallery Image 8" },
+  { id: 8,  src: "./images/sobhahoskote.webp",  alt: "Sobha One World Gallery Image 8" },
 ];
 
 export default function GallerySection() {

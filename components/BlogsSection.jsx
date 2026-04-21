@@ -23,14 +23,10 @@ const blogs = await getBlogs();
       <div className="max-w-5xl mx-auto">
 
         <h2 className="text-xl md:text-2xl font-semibold text-gray-900 text-center mb-2">
-          Latest Articles & Updates
+          Sobha One World Blogs
         </h2>
 
         <div className="w-full h-px bg-gray-200 mb-10" />
-
-        <p className="text-center text-gray-500 text-sm md:text-base mb-10">
-          Stay informed with the latest news and insights about Bellandur, Bangalore.
-        </p>
 
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {blogs.map((blog) => (

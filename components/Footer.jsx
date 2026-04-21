@@ -25,10 +25,12 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Divider */}
-          <div className="border-t border-gray-200"></div>
-
-          {/* Social Media */}
+          <div className="flex flex-col md:flex-row gap-4 justify-between items-center"> 
+            <div className="flex gap-4 text-sm text-gray-700">
+            <a href="privacy-policy">Privacy Policy</a>
+            <a href="disclaimer">Disclaimer</a>
+            <a href="contact">contact</a>
+          </div>
           <div className="flex justify-center gap-5">
             <a
               href="#"
@@ -73,6 +75,11 @@ export default function Footer() {
             >
               <FaYoutube size={14} />
             </a>
+          </div>
+          </div>
+          <div className="border-t border-gray-200"></div>
+          <div>
+            <p className="text-center text-md text-gray-700">© 2026 All rights reserved</p>
           </div>
       </div>
     </footer>

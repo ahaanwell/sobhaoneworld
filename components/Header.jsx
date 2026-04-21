@@ -17,12 +17,14 @@ export default function Header() {
   const navLinks = [
     { name: "Home", link: "/" },
     { name: "Price", link: "/price" },
-    { name: "Floor Plan", link: "/floor-plan" },
+    { name: "Floor Plan", link: "/floor-plans" },
     { name: "Master Plan", link: "/master-plan" },
     { name: "Location", link: "/location" },
     { name: "Amenities", link: "/amenities" },
     { name: "Gallery", link: "/#gallery" },
   ];
+
+  const whatsappLink = "https://wa.me/+918317452005?text=Hi!%20I%27m%20Interested%20In%20Sobha%20One%20World%20Please%20Share%20Details."
 
   return (
     <>
@@ -71,16 +73,16 @@ export default function Header() {
 
             <div className="hidden lg:flex">
               <Link
-                href="https://wa.me/"
+                href={whatsappLink}
                 className="bg-primary text-white flex items-center gap-1 px-3 py-1 rounded-full font-medium hover:bg-[#ca9c20] transition"
               >
                 <FaWhatsapp />
-                Whatsapp
+                +91 8317452005
               </Link>
             </div>
 
             <button
-              className="lg:hidden text-primary"
+              className="lg:hidden text-black"
               onClick={() => setOpen(true)}
             >
               <Menu size={28} />
@@ -142,11 +144,11 @@ export default function Header() {
           </button>
 
           <Link
-            href="https://wa.me/"
+            href={whatsappLink}
             className="flex justify-center items-center gap-2 bg-primary text-white py-2 rounded-full mt-6"
           >
             <FaWhatsapp />
-            Whatsapp
+            +91 8317452005
           </Link>
         </div>
       </div>

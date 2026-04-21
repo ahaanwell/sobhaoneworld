@@ -76,13 +76,11 @@ export default function EMICalculator() {
   const interestDash = (interestPct / 100) * circ;
 
   return (
-    <div className="min-h-screen bg-[#ffffff] flex items-center justify-center p-6 font-serif">
+    <div className="min-h-screen bg-[#ffffff] flex items-center justify-center py-5">
       <div className="w-full max-w-5xl relative">
-        <div className="text-center mb-10">
-          <p className="text-xs tracking-[0.35em] text-primary uppercase mb-2 font-sans">
-            Real Estate Finance
-          </p>
-          <h2 className="text-3xl lg:text-4xl font-bold text-[#1a1a1a] tracking-tight leading-none">
+        <div className=" mb-10">
+          
+          <h2 className="text-2xl text-center font-bold text-gray-700 tracking-tight leading-none">
             EMI Calculator
           </h2>
           <div className="flex items-center justify-center gap-3 mt-3">
@@ -90,8 +88,10 @@ export default function EMICalculator() {
             <div className="w-1.5 h-1.5 rounded-full bg-primary" />
             <div className="h-px w-16 bg-primary" />
           </div>
-          <p className="mt-4 text-gray-800 text-sm font-sans tracking-wide max-w-md mx-auto">
-            Plan your home loan with confidence. Get a detailed breakdown of your monthly commitment.
+          <p className="mt-4 text-gray-700 leading-relaxed">
+            Our <b>EMI Calculator</b> makes it easy to figure out how much your monthly home loan payments will be for the <b>Sobha
+One World</b> new launch by Sobha Limited in Bangalore. To plan your budget, just type in the loan amount, loan term,
+and yearly interest rate.
           </p>
         </div>
 
@@ -311,10 +311,6 @@ export default function EMICalculator() {
             )}
           </div>
         </div>
-
-        <p className="text-center text-xs text-[#a89880] mt-6 font-sans tracking-wide">
-          * EMI calculations are indicative. Actual figures may vary based on lender terms.
-        </p>
       </div>
     </div>
   );

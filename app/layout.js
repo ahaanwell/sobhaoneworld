@@ -32,15 +32,7 @@ export const metadata = {
 
   keywords: [
     "Sobha One World",
-    "Sobha One World Bangalore price",
-    "Sobha One World apartments",
-    "Sobha township Hoskote",
-    "Sobha One World floor plans",
-    "Sobha One World brochure",
-    "flats in Hoskote Bangalore",
-    "new apartments East Bangalore",
-    "luxury flats near Old Madras Road",
-    "Sobha pre launch projects Bangalore",
+    "Sobha One World Hoskote",
   ],
 
   alternates: {
