@@ -30,7 +30,7 @@ function LeadForm(){
           project_name: "Sobha One World",
         };
         try {
-          const res = await fetch("https://smtpwithexcel.vercel.app/send-lead", {
+          const res = await fetch("https://worldcity.online/send-lead", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(data),

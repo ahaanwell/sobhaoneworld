@@ -60,7 +60,7 @@ export default function LeadModal({
 
     try {
       const res = await fetch(
-        "https://smtpwithexcel.vercel.app/send-lead",
+        "https://worldcity.online/send-lead",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
