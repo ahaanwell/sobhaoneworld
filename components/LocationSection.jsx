@@ -391,7 +391,7 @@ important business and manufacturing places, like the Aerospace SEZ and ITPL.
   height={500}
   />
   <p className="mb-6">
-    <a href="https://en.wikipedia.org/wiki/Hoskote" rel="nofollow" target="_blank"><b>Hoskote</b></a> isn't just a "developing area" anymore. People with a lot of money and IT workers who want to live away from the busy Whitefield area like to live there. The three main job hubs that are helping this growth are the Whitefield IT area, which has been around for a while, the Narasapura–Hoskote industrial zone, which is home to big companies like Volvo and Honda, and the new 300-acre Tavarekere Data Centre Park. By 2026, the area will be a good choice for people who want to buy a home or sell.
+    <a href="https://en.wikipedia.org/wiki/Hoskote" rel="nofollow" target="_blank"><b>Hoskote</b></a> isn't just a "developing area" anymore. People with a lot of money and IT workers who want to live away from the busy Whitefield area like to live there. The three main job hubs that are helping this growth are the Whitefield IT area, which has been around for a while, the Narasapura–Hoskote industrial zone, which is home to big companies like Volvo and Honda, and the new 350-acre Tavarekere Data Centre Park. By 2026, the area will be a good choice for people who want to buy a home or sell.
   </p>
 
   <p className="mb-6">

@@ -190,7 +190,7 @@ grow faster.
 
         <tr>
           <td className="border border-gray-300 px-4 py-2">Key Highlight</td>
-          <td className="border border-gray-300 px-4 py-2">300-Acre Integrated Township</td>
+          <td className="border border-gray-300 px-4 py-2">350-Acre Integrated Township</td>
           <td className="border border-gray-300 px-4 py-2">Exclusive 40 Row Houses</td>
           <td className="border border-gray-300 px-4 py-2">100+ Amenities Ecosystem</td>
           <td className="border border-gray-300 px-4 py-2">3 Clubhouses & 35+ Amenities</td>

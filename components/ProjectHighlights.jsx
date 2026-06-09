@@ -51,7 +51,7 @@ const highlights = [
   {
     icon: <FaBuilding className="text-3xl text-[#ca9c20]" />,
     label: "Total No. of Floors",
-    value: "G + 54 Floors",
+    value: "G + 46 Floors",
   },
   {
     icon: <FaBuilding className="text-3xl text-[#ca9c20]" />,
@@ -121,7 +121,7 @@ export default function ProjectHighlights() {
 
         <div className="max-w-5xl mx-auto text-gray-700 mt-6 leading-relaxed">
           <h2 className="text-2xl font-bold mb-4">
-            Sobha One World- How Hoskote, Bangalore, Gone From 300 Acres to One
+            Sobha One World- How Hoskote, Bangalore, Gone From 350 Acres to One
           </h2>
 
           <p className="mb-4">
@@ -130,9 +130,9 @@ export default function ProjectHighlights() {
               <b>Sobha One World</b>
             </a>{" "}
             in Hoskuru, Hoskote, East Bangalore. The main area of the project is
-            over <b>300 acres</b>, and the first part of Sobha One Residences
-            takes up <b>48 acres</b>. The huge project has 18 beautiful towers,
-            each with <b>54 floors</b>. It has <b>5,400 high-end flats</b> that
+            over <b>350 acres</b>, and the first part of Sobha One Residences
+            takes up <b>48 acres</b>. The huge project has 6 beautiful towers,
+            each with <b>46 floors</b>. It has <b>3484 high-end flats</b> that
             are Vaastu-compliant and designed for city life. These big flats
             come in different sizes, from 740 to 2425 square feet and are called{" "}
             <b>1BHK, 2BHK, 3BHK, and 4BHK.</b> This project costs ₹14,720 per
@@ -182,7 +182,7 @@ export default function ProjectHighlights() {
             hubs in{" "}
             <b>East Bengaluru, including Whitefield/ITPL (11 km, 20–25 mins)</b>{" "}
             and the Budigere Cross/ Aerospace Park corridor (15 km, 25 mins).
-            It's also close to the KR Puram/Outer Ring Road tech belt (18 km, 30
+            It's also close to the KR Puram/Outer Ring Road tech belt (6 km, 30
             mins). The Satellite Town Ring Road (STRR) and the Bengaluru–Chennai
             Motorway make it easy to get to and from locations in the
             "Neo-Bangalore" area. This makes it the city's fastest-growing
@@ -247,7 +247,7 @@ export default function ProjectHighlights() {
                   <td className="border border-gray-300 px-4 py-2">
                     Total Land Area
                   </td>
-                  <td className="border border-gray-300 px-4 py-2">300 acre</td>
+                  <td className="border border-gray-300 px-4 py-2">350 acre</td>
                 </tr>
                 <tr>
                   <td className="border border-gray-300 px-4 py-2">Location</td>
@@ -292,7 +292,7 @@ export default function ProjectHighlights() {
                     Total Units
                   </td>
                   <td className="border border-gray-300 px-4 py-2">
-                    5400 Vaastu-aligned units
+                    3484 Vaastu-aligned units
                   </td>
                 </tr>
                 <tr>
@@ -308,7 +308,7 @@ export default function ProjectHighlights() {
                     Towers & Floors
                   </td>
                   <td className="border border-gray-300 px-4 py-2">
-                    3B + GF + 54
+                    3B + GF + 46
                   </td>
                 </tr>
                 <tr>
@@ -331,13 +331,13 @@ export default function ProjectHighlights() {
           {/* Points */}
           <ul className="list-disc pl-6 space-y-3">
             <li>
-              <b>Township Spread Out Over 300 Acres:</b> This is one of the
+              <b>Township Spread Out Over 350 Acres:</b> This is one of the
               largest and most luxurious neighbourhoods in East Bangalore
-              (Hoskote), and it covers <b>300 acres</b>.
+              (Hoskote), and it covers <b>350 acres</b>.
             </li>
             <li>
               <b>63% Open Space for Greens and Tall Buildings:</b> About 63% of
-              the land is left open for greens. The <b>18 towers</b> in the building rise up to 54 stories and have great views of <b>East Bangalore</b>.
+              the land is left open for greens. The <b>6 towers</b> in the building rise up to 46 stories and have great views of <b>East Bangalore</b>.
             </li>
             <li>
               <b>Luxury Clubhouse:</b> The big clubhouse has a lobby that is
@@ -454,7 +454,7 @@ export default function ProjectHighlights() {
           <p className="mb-4">
             One important thing about <b>Sobha One World</b> is how big it is
             and how much focus there is on open areas. Real estate professionals
-            are very excited about this planned <b>300-acre</b> project in
+            are very excited about this planned <b>350-acre</b> project in
             Hoskote. People think it's one of the best- planned Sobha projects
             near <b>Whitefield/ITPL</b>, and it's a great choice for people who
             want high-quality buildings and tall, luxurious homes.
@@ -468,7 +468,7 @@ export default function ProjectHighlights() {
             </b>{" "}
             is quickly becoming one of the best places to live in{" "}
             <b>East Bangalore</b>. It has homes in towers with up to{" "}
-            <b>54 floors</b> and a lot of room for property values to rise in an
+            <b>46 floors</b> and a lot of room for property values to rise in an
             area that is growing quickly. It was named one of the top two
             private projects in East Bangalore by <b>Sobha One World Review</b>.
           </p>
@@ -673,7 +673,7 @@ export default function ProjectHighlights() {
           <p>
             The Purple Line Metro at Kadugodi (15 minutes away) and plans for a
             Double-Decker Metro from KR Puram to Hoskote have made it easier to
-            get around. The 300-acre Tavarekere Data Centre Park has attracted
+            get around. The 350-acre Tavarekere Data Centre Park has attracted
             tech companies from around the World, making the Hoskote-Budigere
             area one of the best places to invest in East Bengaluru.
           </p>

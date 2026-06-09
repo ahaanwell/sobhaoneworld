@@ -127,7 +127,7 @@ export default function MoreAboutProjectSection() {
   <p className="mb-2 font-semibold">Customer Opinion</p>
 
   <p className="mb-4">
-    People are interested in the <b>300-acre</b> village that has a modern theme and a lot of green areas.
+    People are interested in the <b>350-acre</b> village that has a modern theme and a lot of green areas.
   </p>
 
   <p className="mb-6">

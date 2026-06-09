@@ -26,8 +26,8 @@ export default function MasterPlanSection() {
         <div className="w-full h-px bg-gray-200 mb-5" />
         <div className="text-gray-700 mb-5 space-y-6 leading-relaxed">
             <p>
-              The huge <b>300-acre</b> <a href="https://www.sobhaoneworld.gen.in/master-plan"><b>Sobha One Worldmaster plan</b> </a> is spread out all over the land. It will be the largest city in East
-Bangalore with its <b>18 beautiful high-rise buildings</b>. It has more than <b>5,400 high-end units</b> that are designed to be
+              The huge <b>350-acre</b> <a href="https://www.sobhaoneworld.gen.in/master-plan"><b>Sobha One Worldmaster plan</b> </a> is spread out all over the land. It will be the largest city in East
+Bangalore with its <b>6 beautiful high-rise buildings</b>. It has more than <b>3484 high-end units</b> that are designed to be
 private and have views of the city from 270 degrees. In the middle, there is a building that serves as a playground for
 the locals. About 70% of this Sobha township's land is set aside for open green spaces.
             </p>
@@ -84,7 +84,7 @@ the locals. About 70% of this Sobha township's land is set aside for open green 
           <td className="border border-gray-300 px-4 py-2">02</td>
           <td className="border border-gray-300 px-4 py-2">Residential Towers</td>
           <td className="border border-gray-300 px-4 py-2">
-            There are 18 high towers. Each tower has 3 basement floors for vehicle parking, a ground floor with lobby, and 53 floors above.
+            There are 6 high towers. Each tower has 3 basement floors for vehicle parking, a ground floor with lobby, and 53 floors above.
           </td>
         </tr>
 
@@ -142,7 +142,7 @@ the locals. About 70% of this Sobha township's land is set aside for open green 
   <p className="mb-2 font-semibold">Cliffs</p>
 
   <p className="mb-4">
-    <b>High-Rise Buildings:</b> On 300 acres of land, there are 18 tall apartment towers set up in different groups.
+    <b>High-Rise Buildings:</b> On 350 acres of land, there are 6 tall apartment towers set up in different groups.
   </p>
 
   <p className="mb-4">
@@ -150,8 +150,8 @@ the locals. About 70% of this Sobha township's land is set aside for open green 
   </p>
 
   <p className="mb-4">
-    <b>Structure:</b> Each tower is about 175 meters tall and has 54 floors above (3B+G+54). It has 3 basement floors, a ground
-    floor, and 54 stories above.
+    <b>Structure:</b> Each tower is about 175 meters tall and has 46 floors above (3B+G+46). It has 3 basement floors, a ground
+    floor, and 46 stories above.
   </p>
 
   <p className="mb-2 font-semibold">Clubhouse</p>
@@ -162,14 +162,14 @@ the locals. About 70% of this Sobha township's land is set aside for open green 
   </p>
 
   <p className="mb-4">
-    <b>Easy Access:</b> The main building is in the middle and is linked to all 18 towers by green paths that are safe for people
+    <b>Easy Access:</b> The main building is in the middle and is linked to all 6 towers by green paths that are safe for people
     to walk on.
   </p>
 
   <p className="mb-2 font-semibold">Open Area %</p>
 
   <p className="mb-4">
-    <b>Lots of Green:</b> About 65% of the 300 acres are open space with fields, ponds, small woods, and places to grow fresh
+    <b>Lots of Green:</b> About 65% of the 350 acres are open space with fields, ponds, small woods, and places to grow fresh
     food. Only 20% of the land is built up.
   </p>
 

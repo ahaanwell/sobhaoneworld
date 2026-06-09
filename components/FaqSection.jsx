@@ -13,12 +13,12 @@ const faqs = [
   {
     question: "What number of units and sizes are available?",
     answer:
-      "There are 5,406 apartments in sizes ranging from 740 to 2500 square feet.",
+      "There are 3484 apartments in sizes ranging from 740 to 2500 square feet.",
   },
   {
     question: "How many buildings and flats are planned for Sobha One World?",
     answer:
-      "The township will include 18 high rise buildings, each with 54 storeys, totalling around 5,400 units. Every property is created with exquisite architecture and high quality construction.",
+      "The township will include 6 high rise buildings, each with 46 storeys, totalling around 3,484 units. Every property is created with exquisite architecture and high quality construction.",
   },
   {
     question: "5.What is the project's beginning price?",

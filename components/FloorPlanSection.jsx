@@ -103,7 +103,7 @@ roomy luxury flats.
   </h3>
 
   <p className="mb-4">
-    The 300-acre <b>Sobha One World township's</b> Vaastu-based plan is one of its most important parts. The main doors,
+    The 350-acre <b>Sobha One World township's</b> Vaastu-based plan is one of its most important parts. The main doors,
     kitchens, and master bedrooms are all placed in the best places in each home, so that they create unity and good
     energy.
   </p>
@@ -119,7 +119,7 @@ roomy luxury flats.
   </h3>
 
   <p className="mb-6">
-    Families and workers who want to move between 2030 and 2031 should look for units on higher floors (up to 54
+    Families and workers who want to move between 2030 and 2031 should look for units on higher floors (up to 46
     stories). These "Sky Residences" are quiet places to live that are away from the noise of the city. They have views of
     Hoskote's lakes and forests, as well as natural light and good air flow.
   </p>
@@ -222,7 +222,7 @@ roomy luxury flats.
       Vastu rules, and designer baths.
     </li>
     <li>
-      <b>Light and Airflow:</b> Towers with up to 54 floors (175 meters) have a lot of natural light and good air flow.
+      <b>Light and Airflow:</b> Towers with up to 46 floors (175 meters) have a lot of natural light and good air flow.
     </li>
   </ul>
 
