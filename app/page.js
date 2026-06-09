@@ -6,6 +6,7 @@ import GallerySection from "@/components/GallerySection";
 import HeroSection from "@/components/HeroSection";
 import LocationSection from "@/components/LocationSection";
 import MasterPlanSection from "@/components/MasterPlanSection";
+import MediaShowcaseSection from "@/components/MediaShowcaseSection";
 import MoreAboutProjectSection from "@/components/MoreAboutProjectSection";
 import PriceListSection from "@/components/PriceListSection";
 import ProjectHighlights from "@/components/ProjectHighlights";
@@ -19,6 +20,7 @@ export default function Home() {
     <MasterPlanSection/>
     <AmenitiesSection/>
     <GallerySection/>
+    <MediaShowcaseSection/>
     <LocationSection/>
     <MoreAboutProjectSection/>
     <FaqSection/>

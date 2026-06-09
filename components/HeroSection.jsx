@@ -39,7 +39,7 @@ export default function HeroSection() {
           <div className="flex gap-3 mb-6">
             <div className="flex-1 border border-gray-200 rounded-xl py-3 px-2 text-center">
               <p className="text-lg text-gray-700 mb-1">Land Area</p>
-              <p className="text-2xl font-extrabold text-gray-800">300 Acres</p>
+              <p className="text-2xl font-extrabold text-gray-800">48 Acres</p>
             </div>
             <div className="flex-1 border border-gray-200 rounded-xl py-3 px-2 text-center">
               <p className="text-lg text-gray-700 mb-1">Total Units</p>
@@ -53,7 +53,7 @@ export default function HeroSection() {
 
           <p className="text-[15px] text-gray-600 font-medium mt-2">
             <span className="font-semibold text-gray-700">RERA No:</span>{" "}
-            Comming Soon
+            PRM/KA/RERA/1250/304/PR/080526/008634
           </p>
         </div>
       </div>
@@ -84,7 +84,7 @@ export default function HeroSection() {
             <div className="flex gap-4 mb-6">
               <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-5 py-3 text-center min-w-[120px]">
                 <p className="text-sm text-white/70 mb-1">Land Area</p>
-                <p className="text-xl font-extrabold">300 Acres</p>
+                <p className="text-xl font-extrabold">48 Acres</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-5 py-3 text-center min-w-[120px]">
                 <p className="text-sm text-white/70 mb-1">Total Units</p>
@@ -103,7 +103,7 @@ export default function HeroSection() {
 
             <p className="text-sm text-white/70">
               <span className="font-semibold text-white/90">RERA No:</span>{" "}
-              Comming Soon
+              PRM/KA/RERA/1250/304/PR/080526/008634
             </p>
           </div>
 

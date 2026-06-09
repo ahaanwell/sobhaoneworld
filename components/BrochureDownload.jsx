@@ -34,41 +34,58 @@ export default function BrochureDownload({
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    setLoading(true);
+  e.preventDefault();
 
-    const { name, email, number } = leadData;
+  setLoading(true);
 
-    const data = {
-      name,
-      email,
-      phone:number,
-      company_email: "info@searchmyspace.in",
-      project_name: "Sobha One World",
-    };
+  // Create blank tab immediately (prevents popup blocking)
+  const brochureTab = window.open("", "_blank");
 
-    try {
-      const res = await fetch(
-        "https://worldcity.online/send-lead",
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(data),
-        }
-      );
+  const { name, email, number } = leadData;
 
-      if (res.ok) {
-        alert("Enquiry Submitted Successfully");
-        setLeadData({ name: "", email: "", number: "" });
-      } else {
-        alert("Something went wrong ❌");
-      }
-    } catch (error) {
-      alert("Server Error ❌");
-    }
-
-    setLoading(false);
+  const data = {
+    name,
+    email,
+    number,
+    company_email: "info@searchmyspace.in",
+    project_name: "Sobha One World",
   };
+
+  try {
+    const res = await fetch(
+      "https://worldcity.online/send-lead",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      }
+    );
+
+    if (res.ok) {
+      alert("Enquiry Submitted Successfully");
+
+      setLeadData({
+        name: "",
+        email: "",
+        number: "",
+      });
+
+      // Open brochure after successful submission
+      brochureTab.location.href = "/brochure.pdf";
+    } else {
+      brochureTab.close();
+      alert("Something went wrong ❌");
+    }
+  } catch (error) {
+    brochureTab.close();
+    alert("Server Error ❌");
+    console.error(error);
+  } finally {
+    setLoading(false);
+  }
+};
 
   const togglePanel = () => {
     if (isOpen) {

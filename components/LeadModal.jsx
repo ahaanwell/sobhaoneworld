@@ -52,7 +52,7 @@ export default function LeadModal({
     const data = {
       name,
       email,
-      phone: number,
+      number,
       country_code: countryCode,
       company_email: "info@searchmyspace.in",
       project_name: "Sobha One World",

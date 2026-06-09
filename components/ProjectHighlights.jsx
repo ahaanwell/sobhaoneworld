@@ -41,7 +41,7 @@ const highlights = [
   {
     icon: <FaLayerGroup className="text-3xl text-[#ca9c20]" />,
     label: "Land Area",
-    value: "300 Acres",
+    value: "350 Acres",
   },
   {
     icon: <FaCity className="text-3xl text-[#ca9c20]" />,
@@ -66,7 +66,7 @@ const highlights = [
   {
     icon: <FaCertificate className="text-3xl text-[#ca9c20]" />,
     label: "Rera No",
-    value: "On Request",
+    value: "PRM/KA/RERA/1250/304/PR/080526/008634",
   },
   {
     icon: <FaCalendarDay className="text-3xl text-[#ca9c20]" />,
@@ -506,6 +506,27 @@ export default function ProjectHighlights() {
             The KA-bPASS system will be used by the local municipality to handle
             building permits and planning decisions.
           </p>
+
+          <ul className="list-disc pl-6 space-y-2 mb-6 mt-4">
+            <li>
+              Sobha One World Phase 1: PRM/KA/RERA/1250/304/PR/080526/008634
+            </li>
+            <li>
+              Sobha One World Phase 2: PRM/KA/RERA/1250/304/PR/080526/008635
+            </li>
+            <li>
+              Sobha One World Phase 3: PRM/KA/RERA/1250/304/PR/080526/008636
+            </li>
+            <li>
+              Sobha One World Phase 4: PRM/KA/RERA/1250/304/PR/080526/008637
+            </li>
+            <li>
+              Sobha One World Phase 5: PRM/KA/RERA/1250/304/PR/080526/008638
+            </li>
+            <li>
+              Sobha One World Phase 6: PRM/KA/RERA/1250/304/PR/080526/008639
+            </li>
+          </ul>
 
           {/* EOI */}
           <h2 className="text-2xl font-bold mb-4">
