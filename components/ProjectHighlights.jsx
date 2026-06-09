@@ -46,7 +46,7 @@ const highlights = [
   {
     icon: <FaCity className="text-3xl text-[#ca9c20]" />,
     label: "Total Units",
-    value: "5400 Units",
+    value: "3484 Units",
   },
   {
     icon: <FaBuilding className="text-3xl text-[#ca9c20]" />,
@@ -56,7 +56,12 @@ const highlights = [
   {
     icon: <FaBuilding className="text-3xl text-[#ca9c20]" />,
     label: "No Of Towers",
-    value: "18 Towers",
+    value: "6 Towers",
+  },
+  {
+    icon: <FaBuilding className="text-3xl text-[#ca9c20]" />,
+    label: "No Of Wings",
+    value: "14 Wings",
   },
   {
     icon: <FaHelmetSafety className="text-3xl text-[#ca9c20]" />,
@@ -64,14 +69,14 @@ const highlights = [
     value: "Sobha Limited",
   },
   {
-    icon: <FaCertificate className="text-3xl text-[#ca9c20]" />,
-    label: "Rera No",
-    value: "PRM/KA/RERA/1250/304/PR/080526/008634",
-  },
-  {
     icon: <FaCalendarDay className="text-3xl text-[#ca9c20]" />,
     label: "Possession",
     value: "2031 Onwards",
+  },
+  {
+    icon: <FaCertificate className="text-3xl text-[#ca9c20]" />,
+    label: "Rera No",
+    value: "PRM/KA/RERA/1250/304/PR/080526/008634",
   },
 ];
 

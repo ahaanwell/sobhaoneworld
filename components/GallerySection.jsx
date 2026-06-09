@@ -7,11 +7,17 @@ const galleryImages = [
   { id: 1,  src: "./images/sobhaoneworld.webp",  alt: "Sobha One World Gallery Image 1" },
   { id: 2,  src: "./images/sobha-oneworld.webp",  alt: "Sobha One World Gallery Image 2" },
   { id: 3,  src: "./images/sobha-one-world.webp",  alt: "Sobha One World Gallery Image 3" },
-  { id: 4,  src: "./images/sobhaone-world.webp",  alt: "Sobha One World Gallery Image 4" },
-  { id: 5,  src: "./images/gallery-1.webp",  alt: "Sobha One World Gallery Image 5" },
-  { id: 6,  src: "./images/about-sobhaoneworld.webp",  alt: "Sobha One World Gallery Image 6" },
-  { id: 7,  src: "./images/gallery-2.webp",  alt: "Sobha One World Gallery Image 7" },
-  { id: 8,  src: "./images/sobhahoskote.webp",  alt: "Sobha One World Gallery Image 8" },
+  { id: 4,  src: "./images/sobhaoneworld1.webp",  alt: "Sobha One World Gallery Image 4" },
+  { id: 5,  src: "./images/sobha-oneworld1.webp",  alt: "Sobha One World Gallery Image 5" },
+  { id: 6,  src: "./images/sobha-one-world1.webp",  alt: "Sobha One World Gallery Image 6" },
+  { id: 7,  src: "./images/sobhaworld-one.webp",  alt: "Sobha One World Gallery Image 7" },
+  { id: 8,  src: "./images/sobhaoneworlds.webp",  alt: "Sobha One World Gallery Image 8" },
+  { id: 9,  src: "./images/sobhaworlds.webp",  alt: "Sobha One World Gallery Image 9" },
+  { id: 10,  src: "./images/sobhaone-world.webp",  alt: "Sobha One World Gallery Image 10" },
+  { id: 11,  src: "./images/gallery-1.webp",  alt: "Sobha One World Gallery Image 11" },
+  { id: 12,  src: "./images/about-sobhaoneworld.webp",  alt: "Sobha One World Gallery Image 12" },
+  { id: 13,  src: "./images/gallery-2.webp",  alt: "Sobha One World Gallery Image 13" },
+  { id: 14,  src: "./images/sobhahoskote.webp",  alt: "Sobha One World Gallery Image 14" },
 ];
 
 export default function GallerySection() {

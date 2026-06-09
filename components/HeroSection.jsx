@@ -43,7 +43,7 @@ export default function HeroSection() {
             </div>
             <div className="flex-1 border border-gray-200 rounded-xl py-3 px-2 text-center">
               <p className="text-lg text-gray-700 mb-1">Total Units</p>
-              <p className="text-2xl font-extrabold text-gray-800">5400</p>
+              <p className="text-2xl font-extrabold text-gray-800">3484</p>
             </div>
           </div>
 
@@ -88,7 +88,7 @@ export default function HeroSection() {
               </div>
               <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-5 py-3 text-center min-w-[120px]">
                 <p className="text-sm text-white/70 mb-1">Total Units</p>
-                <p className="text-xl font-extrabold">5400</p>
+                <p className="text-xl font-extrabold">3484</p>
               </div>
             </div>
 
